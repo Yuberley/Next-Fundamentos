@@ -1,0 +1,11 @@
+/*
+ * CSS Module: un archivo .module.css normal, pero sus clases solo existen
+ * para el componente que lo importe. Next les pone un nombre único al compilar.
+ */
+.tarjeta {
+  padding: 1.25rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  color: #78350f;
+  font-weight: 600;
+}
